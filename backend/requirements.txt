@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+google-generativeai
+python-dotenv
+pypdf
+beautifulsoup4
+requests
+selenium
+webdriver-manager
+reportlab
+chromadb
+langchain
+langchain-community
+langchain-text-splitters
