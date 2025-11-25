@@ -1,0 +1,26 @@
+UI/UX Guidelines - E-Shop Checkout Page
+
+Form Validation:
+- Form validation errors must be displayed in RED text
+- Error messages should appear inline below the respective input field
+- Error messages should only be shown when validation fails
+
+Button Styling:
+- The 'Pay Now' button should be GREEN
+- 'Add to Cart' buttons should be BLUE
+- Buttons should have hover effects for better user experience
+
+Payment Success:
+- When payment is successful, display "Payment Successful!" message
+- The success message should have a green background (#d4edda)
+- Text color for success message should be dark green (#155724)
+
+Required Fields:
+- Name field is mandatory
+- Email field is mandatory and must be in valid email format
+- Address field is mandatory
+
+Layout Requirements:
+- Maximum width of container should be 900px
+- Sections should have clear visual separation with borders
+- Use padding and spacing for better readability

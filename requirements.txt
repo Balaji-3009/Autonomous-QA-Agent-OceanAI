@@ -1,0 +1,15 @@
+streamlit
+fastapi
+uvicorn
+python-multipart
+google-generativeai
+python-dotenv
+pypdf
+beautifulsoup4
+requests
+selenium
+webdriver-manager
+chromadb
+langchain
+langchain-community
+sentence-transformers

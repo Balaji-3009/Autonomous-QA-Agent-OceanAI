@@ -1,0 +1,47 @@
+{
+  "endpoints": [
+    {
+      "method": "POST",
+      "path": "/apply_coupon",
+      "description": "Apply a discount coupon code to the cart",
+      "request_body": {
+        "code": "string (e.g., SAVE15)"
+      },
+      "response": {
+        "success": "boolean",
+        "discount_percentage": "number",
+        "message": "string"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/submit_order",
+      "description": "Submit the checkout form and process payment",
+      "request_body": {
+        "name": "string",
+        "email": "string",
+        "address": "string",
+        "shipping_method": "string (standard|express)",
+        "payment_method": "string (credit|paypal)",
+        "cart_items": "array",
+        "total_amount": "number"
+      },
+      "response": {
+        "success": "boolean",
+        "order_id": "string",
+        "message": "string"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/validate_email",
+      "description": "Validate email format",
+      "query_params": {
+        "email": "string"
+      },
+      "response": {
+        "valid": "boolean"
+      }
+    }
+  ]
+}
